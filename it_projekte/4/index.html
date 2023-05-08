@@ -1,0 +1,87 @@
+<html>
+    <head> 
+        <style>
+            body {
+                text-align: center
+            }
+            #scores{
+                padding-top: 20px;
+            }
+            #playingField{
+                padding-top: 40px;
+                margin: 0 auto;
+                width: 100%
+            }
+            #playingTable{
+                width: auto;
+                margin: 0 auto;
+                border-collapse: collapse;
+            }
+            table, tr, td{
+                border: 2px solid black;
+                padding: 40px;
+                font-weight: bold;
+                
+            }
+            .label{
+                margin: 10px;
+                padding: 10px;
+                border-radius: 15px;
+                text-align: center;
+                font-weight: bold;
+            }
+            .green {
+                background-color: lightGreen;
+            }
+            .blue {
+                background-color: cadetBlue;
+            }
+            .red {
+                background-color: tomato;
+            }
+            .grey {
+                background-color: grey;
+            }
+            .left {
+                float: left;
+            }
+            .right {
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="scores">
+            <span class="left">
+                <span class="blue label">Player1:</span>
+                <span class="grey label">0</span>
+            </span>
+            <span class="right">
+                <span class="grey label">0</span>
+                <span class="red label">:Player2</span>
+            </span>
+        </div>
+        <div id="playingField">
+            <table id="playingTable">
+                <thead></thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
